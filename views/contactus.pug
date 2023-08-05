@@ -1,0 +1,28 @@
+extends base.pug
+block scripts
+block styles
+    style 
+        include ../static/base.css
+    style 
+        include ../static/contactus.css
+block content
+    div(id="div5")
+        h2 Reach Out To Us
+        div(id="div5-div1")
+            div(class="div5-div1-class")
+                h3 Location
+                p Goregaon Branch: 
+                p Kurukshetra Dance Academy , M.G. Road , Shivaji Nagar , Goregaon East , Mumbai-400228 , Maharashtra
+            div(class="div5-div1-class")
+                h3 Contact 
+                p Tel : +91 77358 33884
+                p Fax : 022 4944 4344
+        h2 Have some questions?
+        div(class="div5-div2")
+            form(action="/contactus", method="post" id="formmmm") 
+                input(type="text", name="name" , class="div5-div2-input-class" , placeholder = "Enter your Name")
+                input(type="number", name="phonenumber" , class="div5-div2-input-class" , placeholder = "Enter your Phone Number")
+                input(type="email", name="email" , class="div5-div2-input-class" , placeholder = "Enter your Email")
+                input(type="text", name="query" , class="div5-div2-input-class" , placeholder = "Enter your Query")
+                button(id="submit-button")
+                    | Submit

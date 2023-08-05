@@ -1,0 +1,162 @@
+/* @font-face{
+    font-family: ganesha;
+    src: url("Theganesha-V5OB.eot") format('embedded-opentype');
+    src: url("Theganesha-V5OB.ttf") format('truetype');
+} */
+
+/* @font-face{
+    font-family: kalam;
+    src :url("Kalam-Regular.ttf") format('truetype');
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }  
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+
+/* DIV 1 AND ITS STUFF */
+#div1{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+#div1-ul1{
+    display: flex;
+    
+}
+
+#div1-ul1 li{
+    margin: 1%;
+    list-style: none;
+}
+
+.ri-menu-fill{
+    display: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+#div1-ul1 li a{
+    font-family: 'REM', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#div1-ul1 li a:hover{
+    color: black;
+    background-color: rgb(255, 226, 172);
+    border: 2px solid white;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* # #================================================================================================================ */
+
+
+
+
+
+
+/* DIV2 AND ITS COMPONENTS */
+
+
+#div2-div2{
+    bottom: 0px;
+    position: fixed;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* # #================================================================================================================ */
+
+
+
+
+
+
+/* MEDIA QUERY WALA PART  */
+
+@media (max-width:1200px) {
+    #div1-ul1{
+        display: none;
+    }
+
+    .ri-menu-fill{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 93%;
+        display: block;
+        right: 10px;
+    }
+
+    #div2-div2{
+        font-size: 0.6em;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
