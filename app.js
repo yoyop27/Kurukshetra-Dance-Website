@@ -11,22 +11,22 @@ const port = 2704;
 
 
 
-const mongoose = require('mongoose');
-main().catch(err => console.log(err));
-async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/KURUKSHETRADB');
-}
+// const mongoose = require('mongoose');
+// main().catch(err => console.log(err));
+// async function main() {
+//   await mongoose.connect('mongodb://127.0.0.1:27017/KURUKSHETRADB');
+// }
 
 
-const ContactSchema = mongoose.Schema({
-    name: String,
-    phonenumber: Number,
-    email:String,
-    query:String
-  });
+// const ContactSchema = mongoose.Schema({
+//     name: String,
+//     phonenumber: Number,
+//     email:String,
+//     query:String
+//   });
 
 
-const Modell = mongoose.model('kurukshetradbcontact', ContactSchema);
+// const Modell = mongoose.model('kurukshetradbcontact', ContactSchema);
 
 
 // EXPRESS SPECIFIC STUFF
@@ -63,17 +63,17 @@ app.get('/base', (req, res)=>{
     res.status(200).render('base.pug', params);
 })
 
-app.post('/contactus' , (req,res)=>{
-    var myData = new Modell(req.body);
-    myData.save().then(()=>{
-        console.log("SUBMITTED")
-        res.redirect("/success")
-    }).catch(()=>{
-        console.log("NOT SUBMITTED")
-        res.redirect("/failure")
-    })
-    const  params = {}
-})
+// app.post('/contactus' , (req,res)=>{
+//     var myData = new Modell(req.body);
+//     myData.save().then(()=>{
+//         console.log("SUBMITTED")
+//         res.redirect("/success")
+//     }).catch(()=>{
+//         console.log("NOT SUBMITTED")
+//         res.redirect("/failure")
+//     })
+//     const  params = {}
+// })
 
 // START THE SERVER
 app.listen(port, ()=>{
