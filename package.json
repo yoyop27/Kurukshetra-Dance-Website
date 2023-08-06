@@ -4,7 +4,7 @@
   "description": "dance website wala pckg",
   "main": "index.js","type": "commonjs",
   "engines": {
-    "node": "14.x"
+    "node": "18.x"
   },
   "scripts": {
     "start": "node index.js",
