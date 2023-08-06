@@ -3,20 +3,21 @@ html
   head
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
     title Kurukshetra Dance Academy
+    link(rel="icon", href="../static/favicon.ico", type="image/ico")
     link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css")
-    //- <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     block scripts
     block styles 
         style 
             include base.css
   body
     div(id="div1")
+        img(src="../static/favicon.ico",alt="not found")
         ul(id="div1-ul1")
             li #[a(href="/#div2",id="div1-ul1-scroll-anchor1") Home]
-            li #[a(href="/#div3-div1",id="div1-ul1-scroll-anchor2") Dances We Teach]
+            li #[a(href="/#div3-div1",id="div1-ul1-scroll-anchor2") Dances]
             li #[a(href="/#div4-div1",id="div1-ul1-scroll-anchor3") Achievments]
-            li #[a(href="/contactus") Contact Us]
-        i(class="ri-menu-fill")
+            li #[a(href="/contactus") Contact]
+        //- i(class="ri-menu-fill",onclick="toggleMenu()")
     div(id="div2-div2") Copyright &copy; 2023 KurukshetraDanceAcademy.com | All rights reserved
     block content
     

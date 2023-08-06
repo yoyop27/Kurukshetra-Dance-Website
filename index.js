@@ -4,7 +4,7 @@ const fs = require("fs");
 const exp = require("constants");
 const bodyparser = require("body-parser");
 const app = express();
-const port = 2704;
+const port = 80;
 
 
 

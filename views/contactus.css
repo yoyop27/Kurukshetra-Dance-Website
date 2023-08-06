@@ -15,7 +15,15 @@
     color: white;
     font-family: 'REM', sans-serif;
     font-size: 2em;
-    padding: 1%;
+    padding-top: 2%;
+    padding-bottom: 0.2%;
+}
+#div5 h1{
+    color: white;
+    font-family: 'REM', sans-serif;
+    font-size: 2em;
+    padding-top: 2%;
+    padding-bottom: 0.2%;
 }
 
 #div5-div1{
@@ -29,8 +37,8 @@
 
 
 .div5-div1-class{
-    margin-top: 3.5%;
-    margin-bottom: 3.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
     margin-left: 3.0%;
     margin-right: 3.0%;
     width: 100%;
@@ -103,8 +111,9 @@
 
 @media (max-width:1200px) {
 
-    #div5{
-        padding-top: 10%;
+    #div5 h2{
+        padding-top: 100px;
+        padding-bottom: 30px;
     }
     #div5-div1{
         width: 100%;
@@ -149,17 +158,19 @@
         width: 95%;
         color: rgb(255, 226, 172);
         display: block;
-        padding: 2.5% 1.5%;
+        padding: 1.5% 1.5%;
         margin-left: 1%;
         margin-right: 1%;
-        margin-top: 8%;
-        margin-bottom: 8%;
+        margin-top: 5%;
+        margin-bottom: 5%;
         background-color: black;
         border: 2px solid rgb(255, 226, 172);
         border-radius: 10px;
         outline: none;
     
     }
+
+    
     
     
     #submit-button{
