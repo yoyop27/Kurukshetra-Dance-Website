@@ -24,7 +24,7 @@
 #div2{
     width: 100%;
     height: 100vh;
-    background: url("../static/images/div2bgimg.jpg") center/cover no-repeat;
+    background: url("../static/div2bgimg.jpg") center/cover no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
