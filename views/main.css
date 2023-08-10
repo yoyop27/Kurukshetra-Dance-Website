@@ -24,7 +24,8 @@
 #div2{
     width: 100%;
     height: 100vh;
-    background: url("https://lh3.googleusercontent.com/pw/AIL4fc-G0P1KPL6PLkU4S_e3KyZjgSrsLl_vlcpAwgm_9zLfvOVncLb3kTX2ugxr7iO-tiJokEGf-qLTXAi_0dbSDxBe-qeIDQeH__oMEkF1_Dfrl7Es3Fy1lw3wGecL5CjzEMegYGZxTaV_bZbS1iH2cnI=w1400-h934-s-no") center/cover no-repeat;
+    background: url("/static/div2bgimg.jpg") center/cover no-repeat;
+    /* background: url("https://lh3.googleusercontent.com/pw/AIL4fc-G0P1KPL6PLkU4S_e3KyZjgSrsLl_vlcpAwgm_9zLfvOVncLb3kTX2ugxr7iO-tiJokEGf-qLTXAi_0dbSDxBe-qeIDQeH__oMEkF1_Dfrl7Es3Fy1lw3wGecL5CjzEMegYGZxTaV_bZbS1iH2cnI=w1400-h934-s-no") center/cover no-repeat; */
     display: flex;
     flex-direction: column;
     align-items: center;
